@@ -1,0 +1,42 @@
+.flex-container {
+  display: flex;
+  height: 150px;
+  border: 2px solid #000;
+  max-width: 310px;
+}
+
+.item {
+  font-size: 24px;
+  height: 50%;
+  text-align: center;
+  min-width: 100px;
+  background: blue;
+}
+
+.nowrap {
+  flex-wrap: nowrap;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.flex-container :nth-child(1) {
+  background: orange;
+}
+
+.flex-container :nth-child(2) {
+  background: blue;
+}
+
+.flex-container :nth-child(3) {
+  background: green;
+}
+
+.flex-container :nth-child(4) {
+  background: red;
+} 

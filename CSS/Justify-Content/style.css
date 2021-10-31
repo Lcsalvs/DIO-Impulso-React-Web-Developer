@@ -1,0 +1,43 @@
+body {
+  background: lightgray;
+  display: flex;
+  justify-content: space-around;
+}
+.container {
+  max-width: 400px;
+  border: 1px solid #000;
+  margin: 0;
+  display: flex;
+}
+
+.item {
+  background: crimson;
+  margin: 5px;
+  color: #fff;
+  text-align: center;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.center {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.column {
+  flex-direction: column;
+  min-height: 100px;
+}

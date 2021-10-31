@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+}
+.container {
+  height: 400px;
+  max-width: 300px;
+  margin: 0 auto;
+  
+  display: flex;
+  flex-wrap: wrap;
+
+  border: 1px solid #000;
+}
+
+.item {
+  background: darkgreen;
+  color: #fff;
+
+  padding: 0 5px;
+  margin: 5px;
+  text-align: center;
+
+  flex: 1;
+}
+
+.stretch {
+  align-content: stretch;
+}
+
+.center {
+  align-content: center;
+}
+
+.flex-start {
+  align-content: flex-start;
+}
+
+.flex-end {
+  align-content: flex-end;
+}
+
+.space-between {
+  align-content: space-between;
+}
+
+.space-around {
+  align-content: space-around;
+}

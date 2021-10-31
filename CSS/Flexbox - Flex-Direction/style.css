@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container {
+  display: flex;
+  list-style: none;
+}
+
+.flex-items {
+  height: 50px;
+  width: 50px;
+  line-height: 50px; /* Eixo Y */
+  text-align: center; /* Eixo X */
+  color: white;
+  margin: 5px;
+
+  background: rgb(214, 152, 36);
+}
+
+.row {
+  flex-direction: row;
+}
+
+.row li {
+  background: rgb(214, 152, 36);
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+  /* float: right; */
+  
+}
+
+.row-reverse li {
+  background-color: rgb(199, 60, 60);
+}
+
+.column {
+  flex-direction: column;
+  float: left;
+}
+
+.column li {
+  background: rgb(52, 78, 12);
+}
+
+.column-reverse {
+  flex-direction: column-reverse;
+  float: right;
+}
+
+.column-reverse li {
+  background: blue;
+}
