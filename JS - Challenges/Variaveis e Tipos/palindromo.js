@@ -6,13 +6,14 @@
 // console.log(isPalindrome)
 
 function checkPalindrome(string) {
-  if(!string) return "String do not exist!";
+  if(!string) return console.log("String do not exist!");
+  // if(typeof string !== String) return console.log("ERROR! Insert a string.")
 
   for(let i = 0; i < string.length; i++) {
     if(string[i] !== string[string.length - 1 - i]) 
       return console.log(false);
   }
-  return console.log(true);
+  return console.log(string, true);
 }
 
-checkPalindrome("gato");
+checkPalindrome(3);
