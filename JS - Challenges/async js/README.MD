@@ -1,6 +1,6 @@
 # Javascript Assíncrono
 
-Este repositório contém a atividade prática do Curso "Javascript Assíncrono", que faz parte do Basecamp de Javascript instruido pela [Stephany Nusch](https://github.com/stebsnusch).
+Este repositório contém a atividade prática do Curso "Javascript Assíncrono", que faz parte do Basecamp de Javascript instruído pela [Stephany Nusch](https://github.com/stebsnusch).
 
 ## Atividade: API "dogAPI"
 
