@@ -1,6 +1,6 @@
 # Map, Filter e Reduce
 
-Este repositório contém a atividade prática do Curso "Map, Filter e Reduce", que faz parte do Basecamp de Javascript instruído pela Stephany Nusch [Digital Innovation One](https://github.com/stebsnusch).
+Este repositório contém a atividade prática do Curso "Map, Filter e Reduce", que faz parte do Basecamp de Javascript instruído pela [Stephany Nusch ](https://github.com/stebsnusch).
 
 ## Atividades
 
